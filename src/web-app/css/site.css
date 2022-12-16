@@ -1,0 +1,216 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+.conteudo-principal p{
+    text-align: justify;
+}
+
+.conteudo-principal{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.conteudo-principal h3{
+    font-size: 18px;
+    color:#ccc;
+}
+
+.panelheader-color{
+    background-color: #333;
+}
+
+.panelbody-color{
+    background-color: #ddd;
+}
+
+#paineis-sobre{
+    margin-top: 20px;
+}
+
+.titulo-tecnologias{
+    background-color: #333;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #FFF;
+    margin-bottom: 0;
+    font-size: 24px;
+    clear: both;
+}
+
+
+.contato-select, .groupo-radio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.groupo-radio .radio:first-child{
+    margin-top: 0;
+}
+.contato{
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: justify;
+    margin-top:10px;
+}
+
+footer address:last-child{
+    margin-bottom: 0;
+}
+
+footer{
+    clear:both;
+}
+
+.corTexto-imagem{
+    color: black;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    background-image: url(../img/programming-topo.png);
+    background-size: cover; /*capa do header*/
+    background-position: top center;
+    max-height: 510px;
+    height: 100%;   /*ocupar toda a extensão do cabeçalho, deve-se fixar um tamanho pro body e html antes   660px*/
+    position:relative;
+}
+
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.getCodeBanner{
+    color: #FFF;
+    background-color: rgba(0,0,0,0.8); /* rgb alpha(opacidade)*/
+    padding:10px;
+    width:70%;
+    border-radius: 8px; /*borda redonda*/
+    position:absolute;  /*se posicionar em relação a alguém, o primeiro pai no caso (header), portanto, header deve ter position: relative*/
+    top:50%;
+    transform: translate(-50%, -50%);    /*volta 50% pra cima, eixo x e y*/
+    left: 50%;
+    transition:0.3s; /*tempo para se deslocar*/
+}
+
+@media(min-width: 768px){/*só vai aplicar o estilo para telas com mais de 768px*/
+    .projetos-responsivo, #paineis-sobre{
+        margin-top: 0;
+        margin-bottom: 20px;
+        width:50%;
+        float:left;
+    }
+}
+
+.jumbotron{
+    margin-top: 20px;
+    clear: both;
+    background-color: #333;
+    color:#FFF;
+}
+
+
+.configs-navegacao{
+        background-color: #333;
+        color: #FFF;
+        font-weight: bold;
+}
+
+
+@media(min-width: 992px){/*só vai aplicar o estilo para telas com mais de 768px*/
+    .getCodeBanner{
+        left:0;
+        transform: translate(0,-40%);
+        width:50%;
+            
+    }
+    
+    .getCode-wrapper{
+        position: relative;
+        height: 100%;
+    }
+    
+    .configs-navegacao{
+        background-color: #333;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 15px;
+        padding:20px;
+        margin-bottom: 0px;
+    }
+    
+    header{
+        max-height: inherit;
+    }
+    
+}
+
+    /*@media(max-width: 480px){
+        .getCode-banner{
+            transform: translate(-50%,45%);
+        }
+
+        .getCode-banner h1{
+            font-size: 25px;
+            color:brown;
+        }
+
+        .getCode-banner p{
+            font-size: 14px;
+        }
+
+        .getCode-banner button{
+            font-size: 14px;
+        }
+    }*/
+
+
+.topicos-align{
+    text-align: justify;
+}
+
+#depoimentos{
+    margin-bottom: 20px;
+}
+
+
+
+.carousel-caption h2{
+    font-size: 100%;
+    text-align: justify;
+}
+
+.carousel-caption h3{
+    font-size: 100%;
+    color:#337ab7;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#tecnologias{
+    margin-top: 0px;
+}
+
+li a{
+    color:#FFF;
+}
+
+#depoimentos p{
+    color:#337ab7;
+}
+
